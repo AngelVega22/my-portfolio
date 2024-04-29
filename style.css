@@ -1,0 +1,159 @@
+.base {
+    background: #060606 url(data:image/png;base64,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);
+}
+
+body {
+    background: #fafbfa url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3BAMAAABa9c91AAAAFVBMVEUAAAD8/vz09vT8+vz08vT0+vTs8uw3s+mFAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAA/ZJREFUOI0VlL16cjkMhH0JWDap0Q+pY8knNZYd6o8D6feD7N7/JaxCQ+HHR9bMO5NIfmpd2DJTuQJYzp2ExUjkkFRvuGQManO45Qa0L18DAZ4f6Q5kc7XVkX+mk8ysVM6LYOopIbZtrGeOgyNLpm0JsQ8TapcksprcilOBVq7KNJx5lNtgusTMBhmgAo03kqwCs+8m66FwSosG/LWajY42+Lhq63hcP5iZLwmq1qUtriAhTwMXmggPqvslLRMYLVdXxuP7JNT6M2ed50KH1Cc+dE7fyfbiGba4jf7CEOGStjkyV+yQcy33ho6z01f3ouc/iaVm0tnI1sqLyIArr8YD+yVdFRbL3XQz1d2pc29F2a3Ga3nOvTrpvzjJ2litL1iDaKeQr66+IZrXSvjfOIqaExO6UYggnqeQOhjiopofJKtiAaAce8ZrCuD9qYWkWmuDy7zpU4Hjs77ncW+7a9YKTEsUd+pDbvOUXoNYedduatyGKOteGheXEX4CrWNtILSeWg0tHuvcY3P5k7pAxtH7mt6Oc70vEiuPuGLlkka4DzsKXFf4pqgirK0De8z0ZVcI+ryhUnduDcbKEHPklEghznXF6HsPUUnP1lH52MohgRbBpv1lS0UnhvPY76vD3A6J+7w93hDWHmY6zaPIBPSBvC4pLvSNNRAZdcWB0+h3h8AxH5LlSVxAmyKV7OR9L73ZBs/QtugGAmifw7XfjiMYJaDWx/RTgi5e0AzGQ3LOq05kUB0bt99VZoRqjr9IRoSFSaWGDEHoR8L3ghKKd276uWPMEymhT8j3TyqNUMJk1BIEei1sa1imdR2XlFukrPiV7tSqMFGvbDX+KADrq9bjbIy5CQf3kREMAfpe7RSW/RRcQ59BHcUINcrZzxwwRMpUdlhWHZo2cvmKCPLrXhD8kt4yf1Vao3+N1Y+RMq11FCvW5CO1sYP1zqquv9mtwRh4KQRfp8QbZaKlhR9nvsF5k7fYUQiuNUjoQAxzFYgYzclrhphtPNrEU3pncBfcWOhMN1RlQYQypu2H5CChWH5+ey+VAvtvbEXuZ1/1I0WXNesMnxJtNG9tXWsuXMytf6SwoTYpX+qeWyFjnD67zVAwSopzHRz56q8WaOA8A3ONn0CEVwOXVcLLIhoIKY22acS5x83cZRkQxv4lMvvcQKMzs7JBmC0/u3uk4NGw3OJ5cwUaZZSqcZjLt0NXHP6CcucWIyMqnfo5wltney3o11a/zbGW/RkcOH26RVPbvM4WGA2Osphz4PwFYRFvp3TL44m3Mmp83IvZUaIW9+ihFZjkiZ3szc8YVeEOdDYOfKU85iER9vaIBokSjWqSKMUvaG8T3qNv/wcjIQ6LopziFgAAAABJRU5ErkJggg==);
+    font-family: "League Spartan", sans-serif;
+
+}
+
+.bg-striped {
+    background-image: repeating-linear-gradient(45deg,
+            /* Ángulo de las rayas */
+            black,
+            /* Color inicial */
+            black 10px,
+            /* Grosor de la raya */
+            transparent 10px,
+            /* Espaciado entre rayas */
+            transparent 20px
+            /* Longitud total del patrón */
+        );
+}
+
+.bg-striped-2 {
+    background-image: repeating-linear-gradient(140deg,
+            /* Ángulo de las rayas */
+            black,
+            /* Color inicial */
+            black 10px,
+            /* Grosor de la raya */
+            transparent 10px,
+            /* Espaciado entre rayas */
+            transparent 20px
+            /* Longitud total del patrón */
+        );
+}
+
+.bg-striped-3 {
+    background-image: repeating-linear-gradient(140deg,
+            /* Ángulo de las rayas */
+            rgba(15, 5, 5, 0.966),
+            /* Color de fondo negro */
+            rgb(0, 0, 0) 10px,
+            /* Color de las rayas menos negro, con 10px de grosor */
+            transparent 10px,
+            /* Parte transparente */
+            transparent 10px
+            /* Espaciado entre rayas */
+        );
+}
+
+
+/* .bg-dotted {
+    background-image: radial-gradient(circle, rgba(236, 220, 220, 0.116) 1px, transparent 1px);
+    background-size: 5px 5px;
+
+} */
+
+
+.bg-dotted {
+    background-image: radial-gradient(circle, rgba(236, 220, 220, 0.116) 1px, transparent 1px);
+    background-size: 10px 10px;
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    .bg-dotted {
+        overflow: scroll;
+    }
+
+    .bg-striped-3 {
+        background-color: black !important;
+    }
+}
+
+@keyframes waveBlink {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: -15px 0;
+        /* Desplazamiento para el efecto de onda */
+    }
+
+    100% {
+        background-position: -100px 0;
+    }
+}
+
+.bg-dotted {
+    animation: waveBlink 3s linear infinite;
+    /* Ajusta la velocidad y repetición */
+}
+
+
+
+@keyframes scroll_right {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes scroll_left {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Animación para la segunda lista (desplazamiento de izquierda a derecha) */
+@keyframes scroll-right {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.scrolling {
+    animation: scroll-left 8s linear infinite;
+}
+
+.scrolling-2 {
+    animation: scroll-left 10s linear infinite;
+}
+
+.scrolling-3 {
+    animation: scroll-right 17s linear infinite;
+}
+
+
+.scrolling-opposite {
+    animation: scroll-right 14s linear infinite;
+}
